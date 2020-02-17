@@ -7,7 +7,7 @@ print(now.toString(Qt.DefaultLocaleLongDate))
 
 datetime = QDateTime.currentDateTime()
 
-print(datetime)
+print(datetime.toString())
 
 time = QTime.currentTime()
 
